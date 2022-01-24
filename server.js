@@ -4,7 +4,7 @@ const fs = require('fs')
 const requestListener = function (req, res) {
   res.setHeader("Content-Type", "text/html;charset=utf8");
   res.writeHead(200);
-  res.end('你好，世界！');
+  res.end('你好2，世界！');
 }
 
 const server = http.createServer(requestListener);
